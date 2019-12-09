@@ -183,11 +183,40 @@
     <Compile Include="Migrations\201912081834336_InitialModel1.Designer.cs">
       <DependentUpon>201912081834336_InitialModel1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912091824548_AddSubcribedToNewsToCostumer.cs" />
+    <Compile Include="Migrations\201912091824548_AddSubcribedToNewsToCostumer.Designer.cs">
+      <DependentUpon>201912091824548_AddSubcribedToNewsToCostumer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091829296_AddMembershipType.cs" />
+    <Compile Include="Migrations\201912091829296_AddMembershipType.Designer.cs">
+      <DependentUpon>201912091829296_AddMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091832130_PopulateMembershipType.cs" />
+    <Compile Include="Migrations\201912091832130_PopulateMembershipType.Designer.cs">
+      <DependentUpon>201912091832130_PopulateMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091842033_ApplyNotationToCustomerName.cs" />
+    <Compile Include="Migrations\201912091842033_ApplyNotationToCustomerName.Designer.cs">
+      <DependentUpon>201912091842033_ApplyNotationToCustomerName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091920000_AddNameToMembershipType.cs" />
+    <Compile Include="Migrations\201912091920000_AddNameToMembershipType.Designer.cs">
+      <DependentUpon>201912091920000_AddNameToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091921194_PopulateMembershipTypeName.cs" />
+    <Compile Include="Migrations\201912091921194_PopulateMembershipTypeName.Designer.cs">
+      <DependentUpon>201912091921194_PopulateMembershipTypeName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912091926574_PopulateMembershipTypeName1.cs" />
+    <Compile Include="Migrations\201912091926574_PopulateMembershipTypeName1.Designer.cs">
+      <DependentUpon>201912091926574_PopulateMembershipTypeName1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Models\MembershipType.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -277,6 +306,27 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912081834336_InitialModel1.resx">
       <DependentUpon>201912081834336_InitialModel1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091824548_AddSubcribedToNewsToCostumer.resx">
+      <DependentUpon>201912091824548_AddSubcribedToNewsToCostumer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091829296_AddMembershipType.resx">
+      <DependentUpon>201912091829296_AddMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091832130_PopulateMembershipType.resx">
+      <DependentUpon>201912091832130_PopulateMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091842033_ApplyNotationToCustomerName.resx">
+      <DependentUpon>201912091842033_ApplyNotationToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091920000_AddNameToMembershipType.resx">
+      <DependentUpon>201912091920000_AddNameToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091921194_PopulateMembershipTypeName.resx">
+      <DependentUpon>201912091921194_PopulateMembershipTypeName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912091926574_PopulateMembershipTypeName1.resx">
+      <DependentUpon>201912091926574_PopulateMembershipTypeName1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
