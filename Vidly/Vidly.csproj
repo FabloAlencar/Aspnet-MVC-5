@@ -45,10 +45,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EPPlus, Version=4.5.3.2, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPPlus.4.5.3.2\lib\net40\EPPlus.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -211,6 +216,22 @@
     <Compile Include="Migrations\201912091926574_PopulateMembershipTypeName1.Designer.cs">
       <DependentUpon>201912091926574_PopulateMembershipTypeName1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912092042333_AddBirthdateToCustomers.cs" />
+    <Compile Include="Migrations\201912092042333_AddBirthdateToCustomers.Designer.cs">
+      <DependentUpon>201912092042333_AddBirthdateToCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912092043163_UpdateCustomerBirthdate.cs" />
+    <Compile Include="Migrations\201912092043163_UpdateCustomerBirthdate.Designer.cs">
+      <DependentUpon>201912092043163_UpdateCustomerBirthdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912092109341_UpdateDateBirthToNullable.cs" />
+    <Compile Include="Migrations\201912092109341_UpdateDateBirthToNullable.Designer.cs">
+      <DependentUpon>201912092109341_UpdateDateBirthToNullable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912092111346_UpdateDateBirthToNull.cs" />
+    <Compile Include="Migrations\201912092111346_UpdateDateBirthToNull.Designer.cs">
+      <DependentUpon>201912092111346_UpdateDateBirthToNull.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -327,6 +348,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912091926574_PopulateMembershipTypeName1.resx">
       <DependentUpon>201912091926574_PopulateMembershipTypeName1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912092042333_AddBirthdateToCustomers.resx">
+      <DependentUpon>201912092042333_AddBirthdateToCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912092043163_UpdateCustomerBirthdate.resx">
+      <DependentUpon>201912092043163_UpdateCustomerBirthdate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912092109341_UpdateDateBirthToNullable.resx">
+      <DependentUpon>201912092109341_UpdateDateBirthToNullable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912092111346_UpdateDateBirthToNull.resx">
+      <DependentUpon>201912092111346_UpdateDateBirthToNull.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
