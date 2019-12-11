@@ -232,9 +232,26 @@
     <Compile Include="Migrations\201912092111346_UpdateDateBirthToNull.Designer.cs">
       <DependentUpon>201912092111346_UpdateDateBirthToNull.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912112155527_add-migration AddGenreTable.cs" />
+    <Compile Include="Migrations\201912112155527_add-migration AddGenreTable.Designer.cs">
+      <DependentUpon>201912112155527_add-migration AddGenreTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912112157193_PopulateMovies_and_Genres.cs" />
+    <Compile Include="Migrations\201912112157193_PopulateMovies_and_Genres.Designer.cs">
+      <DependentUpon>201912112157193_PopulateMovies_and_Genres.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912112206273_PopulateMovies_and_Genres1.cs" />
+    <Compile Include="Migrations\201912112206273_PopulateMovies_and_Genres1.Designer.cs">
+      <DependentUpon>201912112206273_PopulateMovies_and_Genres1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201912112219377_PopulateMoviesOnly.cs" />
+    <Compile Include="Migrations\201912112219377_PopulateMoviesOnly.Designer.cs">
+      <DependentUpon>201912112219377_PopulateMoviesOnly.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
+    <Compile Include="Models\Genre.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -301,7 +318,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
-    <Content Include="Views\Movies\Random.cshtml" />
+    <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
   </ItemGroup>
@@ -360,6 +377,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912092111346_UpdateDateBirthToNull.resx">
       <DependentUpon>201912092111346_UpdateDateBirthToNull.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912112155527_add-migration AddGenreTable.resx">
+      <DependentUpon>201912112155527_add-migration AddGenreTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912112157193_PopulateMovies_and_Genres.resx">
+      <DependentUpon>201912112157193_PopulateMovies_and_Genres.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912112206273_PopulateMovies_and_Genres1.resx">
+      <DependentUpon>201912112206273_PopulateMovies_and_Genres1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912112219377_PopulateMoviesOnly.resx">
+      <DependentUpon>201912112219377_PopulateMoviesOnly.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
