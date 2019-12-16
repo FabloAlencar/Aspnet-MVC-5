@@ -248,6 +248,10 @@
     <Compile Include="Migrations\201912112219377_PopulateMoviesOnly.Designer.cs">
       <DependentUpon>201912112219377_PopulateMoviesOnly.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201912162000132_MovieNameIsRequired.cs" />
+    <Compile Include="Migrations\201912162000132_MovieNameIsRequired.Designer.cs">
+      <DependentUpon>201912162000132_MovieNameIsRequired.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
@@ -395,6 +399,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201912112219377_PopulateMoviesOnly.resx">
       <DependentUpon>201912112219377_PopulateMoviesOnly.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201912162000132_MovieNameIsRequired.resx">
+      <DependentUpon>201912162000132_MovieNameIsRequired.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
