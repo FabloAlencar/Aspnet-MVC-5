@@ -30,3 +30,11 @@ a .btn {
 .mb {
     margin-bottom: 50px;
 }
+
+.field-validation-error {
+    color: red
+}
+
+.input-validation-error {
+    border: 1px solid red
+}

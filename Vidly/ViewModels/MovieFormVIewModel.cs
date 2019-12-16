@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 using Vidly.Models;
 
 namespace Vidly.ViewModels
@@ -10,7 +7,5 @@ namespace Vidly.ViewModels
     {
         public IEnumerable<Genre> Genres { get; set; }
         public Movie Movie { get; set; }
-
-
     }
 }

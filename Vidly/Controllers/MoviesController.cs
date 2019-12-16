@@ -24,7 +24,6 @@ namespace Vidly.Controllers
         [HttpPost]
         public ActionResult Save(Movie movie)
         {
-
             movie.AddedDate = DateTime.Now;
             if (movie.Id == 0)
             {
@@ -87,6 +86,5 @@ namespace Vidly.Controllers
 
             return View("MovieForm", viewModel);
         }
-
     }
 }
