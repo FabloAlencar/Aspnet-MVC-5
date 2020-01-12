@@ -5,18 +5,10 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-@*<td>@Html.ActionLink(Movie.Name, "Edit", "Movies", new { id = Movie.Id }, null)</td>
-    <td>@Movie.Genre.Name</td>*@
 <h2>Movies</h2>
-
-@Html.ActionLink("New Movie", "New", "Movies",new { @class="mb btn btn-primary", @id=Guid.NewGuid().ToString() })
-
-@if (!Model.Any())
-{
-<p>We don't have any Movies yet.</p>
-}
-else
-{
+<p>
+    @Html.ActionLink("New Movie", "New", "Movies", null, new { @class = "btn btn-primary" })
+</p>
 <table class="table table-bordered table-hover">
     <thead>
         <tr>
@@ -25,13 +17,12 @@ else
         </tr>
     </thead>
     <tbody>
-        @foreach (var Movie in Model)
-            {
-        <tr>
-            <td>@Html.ActionLink(Movie.Name, "Edit", "Movies", new { id = Movie.Id }, null)</td>
-            <td>@Movie.Genre.Name</td>
-        </tr>
-            }
+        @foreach (var movie in Model)
+        {
+            <tr>
+                <td>@Html.ActionLink(movie.Name, "Edit", "Movies", new {id = movie.Id}, null)</td>
+                <td>@movie.Genre.Name</td>
+            </tr>
+        }
     </tbody>
 </table>
-}
