@@ -188,11 +188,13 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
+    <Compile Include="Controllers\Api\MoviesController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -275,6 +277,14 @@
     <Compile Include="Migrations\202001121734435_CreateEditAMovie.cs" />
     <Compile Include="Migrations\202001121734435_CreateEditAMovie.Designer.cs">
       <DependentUpon>202001121734435_CreateEditAMovie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001131447046_UpdateOfficeLaptop.cs" />
+    <Compile Include="Migrations\202001131447046_UpdateOfficeLaptop.Designer.cs">
+      <DependentUpon>202001131447046_UpdateOfficeLaptop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001131511543_72_Exercise.cs" />
+    <Compile Include="Migrations\202001131511543_72_Exercise.Designer.cs">
+      <DependentUpon>202001131511543_72_Exercise.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
@@ -434,6 +444,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001121734435_CreateEditAMovie.resx">
       <DependentUpon>202001121734435_CreateEditAMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001131447046_UpdateOfficeLaptop.resx">
+      <DependentUpon>202001131447046_UpdateOfficeLaptop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001131511543_72_Exercise.resx">
+      <DependentUpon>202001131511543_72_Exercise.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
