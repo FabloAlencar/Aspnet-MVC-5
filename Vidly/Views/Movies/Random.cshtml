@@ -6,9 +6,8 @@
 
 @*
     This is a comment
-    On multiple lines    
+    On multiple lines
 *@
-
 
 @{
     var className = Model.Customers.Count > 0 ? "popular" : null;
@@ -18,15 +17,14 @@
 
 @if (Model.Customers.Count == 0)
 {
-    <text>No one has rented this movie before.</text>
+<text>No one has rented this movie before.</text>
 }
 else
 {
-    <ul>
-        @foreach (var customer in Model.Customers)
+<ul>
+    @foreach (var customer in Model.Customers)
         {
-            <li>@customer.Name</li>
+    <li>@customer.Name</li>
         }
-    </ul>
+</ul>
 }
-

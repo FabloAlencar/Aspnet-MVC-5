@@ -1,8 +1,7 @@
 namespace Vidly.Migrations
 {
-    using System;
     using System.Data.Entity.Migrations;
-    
+
     public partial class UpdateOfficeLaptop : DbMigration
     {
         public override void Up()
@@ -12,7 +11,7 @@ namespace Vidly.Migrations
             AlterColumn("dbo.Movies", "NumberInStock", c => c.Byte(nullable: false));
             DropColumn("dbo.Movies", "AddedDate");
         }
-        
+
         public override void Down()
         {
             AddColumn("dbo.Movies", "AddedDate", c => c.DateTime(nullable: false));
