@@ -194,6 +194,7 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MoviesController.cs" />
     <Compile Include="Dtos\CustomerDto.cs" />
+    <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
     <Compile Include="Global.asax.cs">
@@ -290,6 +291,10 @@
     <Compile Include="Migrations\202001132043155_78_DataTables_Plug_in.cs" />
     <Compile Include="Migrations\202001132043155_78_DataTables_Plug_in.Designer.cs">
       <DependentUpon>202001132043155_78_DataTables_Plug_in.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001141841544_AddNumberInStockRange1to20.cs" />
+    <Compile Include="Migrations\202001141841544_AddNumberInStockRange1to20.Designer.cs">
+      <DependentUpon>202001141841544_AddNumberInStockRange1to20.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
@@ -542,11 +547,9 @@
     <Content Include="Views\Customers\Index.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
-    <Content Include="Views\Movies\CustomerForm.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Movies\Index.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
-    <Content Include="Views\Movies\Random.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -633,6 +636,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001132043155_78_DataTables_Plug_in.resx">
       <DependentUpon>202001132043155_78_DataTables_Plug_in.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001141841544_AddNumberInStockRange1to20.resx">
+      <DependentUpon>202001141841544_AddNumberInStockRange1to20.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
