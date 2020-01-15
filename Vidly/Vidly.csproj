@@ -304,6 +304,10 @@
     <Compile Include="Migrations\202001142035130_AddDrivingLicenseToApplicationUser.Designer.cs">
       <DependentUpon>202001142035130_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001152116143_AddCanManageCustomers.cs" />
+    <Compile Include="Migrations\202001152116143_AddCanManageCustomers.Designer.cs">
+      <DependentUpon>202001152116143_AddCanManageCustomers.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\RoleName.cs" />
@@ -553,13 +557,14 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Customers\Index.cshtml" />
+    <Content Include="Views\Customers\List.cshtml" />
     <Content Include="Views\Customers\Details.cshtml" />
     <Content Include="Views\Customers\CustomerForm.cshtml" />
     <Content Include="Views\Movies\Details.cshtml" />
     <Content Include="Views\Movies\List.cshtml" />
     <Content Include="Views\Movies\MovieForm.cshtml" />
     <Content Include="Views\Movies\ReadOnlyList.cshtml" />
+    <Content Include="Views\Customers\ReadOnlyList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -655,6 +660,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001142035130_AddDrivingLicenseToApplicationUser.resx">
       <DependentUpon>202001142035130_AddDrivingLicenseToApplicationUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001152116143_AddCanManageCustomers.resx">
+      <DependentUpon>202001152116143_AddCanManageCustomers.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
