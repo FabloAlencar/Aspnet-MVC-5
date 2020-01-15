@@ -9,7 +9,11 @@ namespace Vidly.Models
     {
         public bool HasPassword { get; set; }
         public IList<UserLoginInfo> Logins { get; set; }
+
+        [Required]
+        [StringLength(50)]
         public string PhoneNumber { get; set; }
+
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
     }

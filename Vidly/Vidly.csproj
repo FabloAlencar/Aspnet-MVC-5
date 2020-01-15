@@ -308,13 +308,23 @@
     <Compile Include="Migrations\202001152116143_AddCanManageCustomers.Designer.cs">
       <DependentUpon>202001152116143_AddCanManageCustomers.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001152208120_AddPhonetoAccount.cs" />
+    <Compile Include="Migrations\202001152208120_AddPhonetoAccount.Designer.cs">
+      <DependentUpon>202001152208120_AddPhonetoAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202001152220328_RemovePhoneUpdatePhoneNumber.cs" />
+    <Compile Include="Migrations\202001152220328_RemovePhoneUpdatePhoneNumber.Designer.cs">
+      <DependentUpon>202001152220328_RemovePhoneUpdatePhoneNumber.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
     <Compile Include="Models\Genre.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="ViewModels\ExternalLoginConfirmationViewModel.cs" />
     <Compile Include="ViewModels\MovieFormViewModel.cs" />
     <Compile Include="ViewModels\ManageViewModels.cs" />
     <Compile Include="Models\MembershipType.cs" />
@@ -663,6 +673,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001152116143_AddCanManageCustomers.resx">
       <DependentUpon>202001152116143_AddCanManageCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001152208120_AddPhonetoAccount.resx">
+      <DependentUpon>202001152208120_AddPhonetoAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001152220328_RemovePhoneUpdatePhoneNumber.resx">
+      <DependentUpon>202001152220328_RemovePhoneUpdatePhoneNumber.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
