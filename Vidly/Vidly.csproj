@@ -189,6 +189,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\Api\CustomersController.cs" />
     <Compile Include="Controllers\Api\MoviesController.cs" />
+    <Compile Include="Controllers\Api\NewRentalsController.cs" />
     <Compile Include="Controllers\CustomersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="Dtos\GenreDto.cs" />
     <Compile Include="Dtos\MembershipTypeDto.cs" />
     <Compile Include="Dtos\MovieDto.cs" />
+    <Compile Include="Dtos\NewRentalDto.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -316,9 +318,14 @@
     <Compile Include="Migrations\202001152220328_RemovePhoneUpdatePhoneNumber.Designer.cs">
       <DependentUpon>202001152220328_RemovePhoneUpdatePhoneNumber.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001161914185_AddRentalUseCase.cs" />
+    <Compile Include="Migrations\202001161914185_AddRentalUseCase.Designer.cs">
+      <DependentUpon>202001161914185_AddRentalUseCase.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
+    <Compile Include="Models\Rental.cs" />
     <Compile Include="Models\RoleName.cs" />
     <Compile Include="ViewModels\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -679,6 +686,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001152220328_RemovePhoneUpdatePhoneNumber.resx">
       <DependentUpon>202001152220328_RemovePhoneUpdatePhoneNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001161914185_AddRentalUseCase.resx">
+      <DependentUpon>202001161914185_AddRentalUseCase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
