@@ -24,7 +24,7 @@ namespace Vidly.Controllers.Api
             //    return BadRequest("Customer Id is not valid.");
 
             var movies = _context.Movies.Where(
-                m => newRental.MoviesIds.Contains(m.Id)).ToList();
+                m => newRental.MovieIds.Contains(m.Id)).ToList();
 
             //if (movies.Count != newRental.MoviesIds.Count)
             //    return BadRequest("One or more MoviesIds are invalid.");

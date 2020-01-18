@@ -327,6 +327,10 @@
     <Compile Include="Migrations\202001161922242_AddNumberAvailableToMovie.Designer.cs">
       <DependentUpon>202001161922242_AddNumberAvailableToMovie.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202001181321326_SomeFixSAutoCompletion.cs" />
+    <Compile Include="Migrations\202001181321326_SomeFixSAutoCompletion.Designer.cs">
+      <DependentUpon>202001181321326_SomeFixSAutoCompletion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Min18YearsIfAMember.cs" />
@@ -706,6 +710,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202001161922242_AddNumberAvailableToMovie.resx">
       <DependentUpon>202001161922242_AddNumberAvailableToMovie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202001181321326_SomeFixSAutoCompletion.resx">
+      <DependentUpon>202001181321326_SomeFixSAutoCompletion.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
