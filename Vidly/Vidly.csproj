@@ -351,6 +351,7 @@
     <Compile Include="ViewModels\RandomMovieViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="404.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -480,6 +481,7 @@
     <Content Include="Content\DataTables\css\common.scss" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="AppSettings.config" />
     <None Include="Properties\PublishProfiles\GoDaddyProfile.pubxml" />
     <None Include="Properties\PublishProfiles\Testing.pubxml" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
